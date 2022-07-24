@@ -7,6 +7,7 @@
   --primary-background-color: #ffffff;
   --secondary-background-color: #2f303a;
   --tertiary-background-color: #f5f4fa;
+  --hero-background-color: #C4C4C4;
 
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -156,7 +157,20 @@ body {
 /* =================== Главная секция =================== */
 
 .section-hero {
-  background-color: var(--secondary-background-color);
+  background-color: var(--hero-background-color);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/images/main-img.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -249,6 +263,18 @@ body {
 .advantage-text {
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.advantage-area-icon {
+  width: 270px;
+  height: 120px;
+  background-color: var(--tertiary-background-color);
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+.advantage-item > .advantage-icon {
+  
 }
 
 /* =================== Виды услуг =================== */
