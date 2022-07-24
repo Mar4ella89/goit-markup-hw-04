@@ -163,7 +163,7 @@ body {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("/images/main-img.jpg");
+    url("../images/main-img.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 
@@ -274,7 +274,7 @@ body {
 }
 
 .advantage-item > .advantage-icon {
-  
+
 }
 
 /* =================== Виды услуг =================== */
