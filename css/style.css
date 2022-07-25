@@ -7,7 +7,7 @@
   --primary-background-color: #ffffff;
   --secondary-background-color: #2f303a;
   --tertiary-background-color: #f5f4fa;
-  --hero-background-color: #C4C4C4;
+  --hero-background-color: #c4c4c4;
 
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
@@ -283,7 +283,6 @@ body {
   justify-content: center;
 }
 
-
 /* =================== Виды услуг =================== */
 
 .services-list {
@@ -359,7 +358,80 @@ body {
   font-size: var(--secondary-font-size);
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-bottom: 30px;
 }
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-link-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background-color: var(--primary-background-color);
+  color: #afb1b8;
+}
+
+.social-link-list:hover,
+.social-link-list:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.social-link-icon {
+  fill: currentColor;
+}
+
+/* =================== Постоянные клиенты =================== */
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+
+  margin-bottom: 50px;
+}
+
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+  background-color: var(--tertiary-background-color);
+  border: 1px solid #afb1b8;
+  color: #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  background-color: var(--accent-color);
+  color: var(--tertiary-color);
+}
+
+.clients-icon {
+  display: flex;
+  fill: currentColor;
+}
+
 /* =================== Подвал сайта =================== */
 
 .footer {
@@ -391,6 +463,50 @@ body {
 
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
+}
+
+.footer-social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--tertiary-color);
+  margin-bottom: 20px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--tertiary-color);
+  border-radius: 50%;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus{
+  background-color: var(--accent-color);
+}
+
+.footer-social-icon {
+  fill: currentColor;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-left-container {
+   margin-right: 85px;
 }
 
 /* =================== ПОРТФОЛИО =================== */
