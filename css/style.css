@@ -108,6 +108,8 @@ body {
 }
 
 .contact-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -135,7 +137,6 @@ body {
 
 .list-nav .link,
 .contact-nav .link {
-  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -154,6 +155,11 @@ body {
   margin-right: 50px;
 }
 
+.icon-nav {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 /* =================== Главная секция =================== */
 
 .section-hero {
@@ -165,7 +171,7 @@ body {
     ),
     url("../images/main-img.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
   max-width: 1600px;
   height: 600px;
@@ -271,11 +277,12 @@ body {
   background-color: var(--tertiary-background-color);
   margin-bottom: 30px;
   border-radius: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.advantage-item > .advantage-icon {
-
-}
 
 /* =================== Виды услуг =================== */
 
