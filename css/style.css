@@ -423,8 +423,8 @@ body {
 
 .clients-link:hover,
 .clients-link:focus {
-  background-color: var(--accent-color);
-  color: var(--tertiary-color);
+  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .clients-icon {
