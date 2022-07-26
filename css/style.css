@@ -415,7 +415,7 @@ body {
 
   width: 170px;
   height: 92px;
-  background-color: var(--tertiary-background-color);
+  background-color: var(--primary-background-color);
   border: 1px solid #afb1b8;
   color: #afb1b8;
   border-radius: 4px;
